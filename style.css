@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    border-radius: 0%;
+    height: 20px;
+    width: 60px;
+}
+button:hover{
+    background-color:rgb(58, 105, 10);
+    color: white;
+}
